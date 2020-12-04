@@ -1,0 +1,8 @@
+The dataset we are using comes from kaggle.com/rounakbanik/the-movies-dataset#movies_metadata.csv which contains information 
+for over 45,000 movies. The information contains fields such as genre, IMDB id,budget, runtime, studio, country, etc. We will use 
+beautiful soup to scrape imdb ratings, metacritic ratings, and IMDB ids from https://www.imdb.com/search/title/?count=100&groups=top_1000&sort=user_rating
+which lists the top 1000 imdb movies. Later we can match the ratings with its corresponding movie through the 
+IMDB id.
+
+to run the scraper, type python top1000.py
+This will generate a .csv file named top1000.csv
